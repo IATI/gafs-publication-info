@@ -43,7 +43,7 @@ html_theme_options = {  # See https://iati-sphinx-theme.readthedocs-hosted.com/e
     "header_title_text": _("GAFs Reporting"),
     "header_eyebrow_text": _("IATI Reporting: Documentation"),
     "languages": ["en", "fr", "es"],
-    "project_title": _("GAFs Reporting: Documentation"),
+    "project_title": _("GAFs & IATI"),
     "show_download_links": True,
 }
 

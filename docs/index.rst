@@ -25,6 +25,6 @@ allowing international partners to focus on insights rather than manual data cle
     :hidden:
     :titlesonly:
     :maxdepth: 3
-    :caption: Appedices
+    :caption: Appendices
 
     countrylist

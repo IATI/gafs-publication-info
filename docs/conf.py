@@ -17,7 +17,7 @@ _ = get_translation(MESSAGE_CATALOG_NAME)
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 # These are kept for compatibility but shouldn't appear anywhere on the final website.
 
-project = "GAFs: Documentation"
+project = "GAFS: Documentation"
 author = "IATI Secretariat"
 language = "en"
 
@@ -40,10 +40,10 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 html_theme = "iati_sphinx_theme"
 html_theme_options = {  # See https://iati-sphinx-theme.readthedocs-hosted.com/en/latest/#configuration for additional options and info
     "github_repository": "https://github.com/IATI/sphinx-theme",
-    "header_title_text": _("GAFs Reporting"),
+    "header_title_text": _("GAFS Reporting"),
     "header_eyebrow_text": _("IATI Reporting: Documentation"),
     "languages": ["en", "fr", "es"],
-    "project_title": _("GAFs & IATI"),
+    "project_title": _("GAFS & IATI"),
     "show_download_links": True,
 }
 

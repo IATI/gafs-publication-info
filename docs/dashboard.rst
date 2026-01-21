@@ -9,7 +9,7 @@ The trigger process:
     a review of required scale-up efforts, and final activation by senior government leaders.
 
 Data integration: 
-    Once a plan is triggered, the GAFs Dashboard integrates IATI data to document decisions and facilitate accountability among international partners.
+    Once a plan is triggered, the GAFS Dashboard integrates IATI data to document decisions and facilitate accountability among international partners.
 
 Reporting timeliness:
     To support efficient tracking, it is vital that IATI activities - representing specific contracts, projects, or programmes - are published in a timely manner 

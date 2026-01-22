@@ -2,7 +2,7 @@
 Overview
 ******************
 
-The **Global Alliance for Food Security (GAFS)** relies on data from IATI Reporting Organisations to coordinate responses to Food and Nutrition Security (FNS) crises. 
+The **Global Food and Nutrition Security (GFNS)** Dashboard relies on data from IATI Reporting Organisations to coordinate responses to Food and Nutrition Security (FNS) crises. 
 
 When a country-led Preparedness Plan is triggered, this guidance ensures that your organisation's IATI activities are correctly "tagged"
 so they can be tracked on the `Global Food and Nutrition Security Dashboard <https://www.gafs.info/home/>`_ with precision.
@@ -14,7 +14,7 @@ allowing international partners to focus on insights rather than manual data cle
     :hidden:
     :titlesonly:
     :maxdepth: 3
-    :caption: GAFS Reporting
+    :caption: GFNS Reporting
 
     Overview <self>
     dashboard

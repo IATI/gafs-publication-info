@@ -2,7 +2,7 @@
 How to Tag IATI Data
 ***********************
 
-There are two primary methods to link an IATI activity to a GAFS Preparedness Plan:
+There are two primary methods to link an IATI activity to a GFNS Preparedness Plan:
 
 * **Method A**: Using the IATI “Tag” Data Field (Preferred)
 * **Method B**: Supplementing with Free Text Hashtags
@@ -13,9 +13,9 @@ Method A: Using the IATI "Tag" Data Field (Preferred)
 The `IATI tag element <https://iatistandard.org/en/iati-standard/203/activity-standard/iati-activities/iati-activity/tag/>`_ allows for the inclusion of non-statistical classifications within an activity.
 
 +--------------------------------------------------------------------------------------------+----------------------------------+--------------+-----------------------------------------------------------------------------------------------------------------+
-| Data Field                                                                                 | Purpose                          | Requirement? | GAFS Value                                                                                                      |
+| Data Field                                                                                 | Purpose                          | Requirement? | GFNS Value                                                                                                      |
 +============================================================================================+==================================+==============+=================================================================================================================+
-| `Tag Vocabulary <https://iatistandard.org/en/iati-standard/203/codelists/tagvocabulary/>`_ | Identifies the GAFS list         | Required     | 5                                                                                                               |
+| `Tag Vocabulary <https://iatistandard.org/en/iati-standard/203/codelists/tagvocabulary/>`_ | Identifies the GFNS list         | Required     | 5                                                                                                               |
 +--------------------------------------------------------------------------------------------+----------------------------------+--------------+-----------------------------------------------------------------------------------------------------------------+
 | Tag Code                                                                                   | Country of the Preparedness Plan | Required     | `Two-digit ISO code <https://iatistandard.org/en/iati-standard/203/codelists/country/>`_ (e.g., SO for Somalia) |
 +--------------------------------------------------------------------------------------------+----------------------------------+--------------+-----------------------------------------------------------------------------------------------------------------+
@@ -52,17 +52,17 @@ If your system cannot support the tag field, or if you want to provide more cont
 `description <https://iatistandard.org/en/iati-standard/203/activity-standard/iati-activities/iati-activity/description/>`_, 
 and/or `transaction description <https://iatistandard.org/en/iati-standard/203/activity-standard/iati-activities/iati-activity/transaction/description/>`_ .
 
-To make these hashtags relevant to GAFS, a specific string is required (see :ref:`country_tags` for full list) that combines #GAFS with the ISO country code.  
-For example, #GAFS-YE to related to the Preparedness Plan in Yemen.
+To make these hashtags relevant to GFNS, a specific string is required (see :ref:`country_tags` for full list) that combines #GFNS with the ISO country code.  
+For example, #GFNS-YE to related to the Preparedness Plan in Yemen.
 
 +---------------------------+------------------+---------------------------------------------------------------+
 | Preparedness Plan Country | Required Hashtag | Example of Usage                                              |
 +===========================+==================+===============================================================+
-| Somalia                   | #GAFS-SO         | Activity title: "Food Security programme in Somalia #GAFS-SO" |
+| Somalia                   | #GFNS-SO         | Activity title: "Food Security programme in Somalia #GFNS-SO" |
 +---------------------------+------------------+---------------------------------------------------------------+
-| Haiti                     | #GAFS-HT         | Activity description: "This activity relates to #GAFS-HT"     |
+| Haiti                     | #GFNS-HT         | Activity description: "This activity relates to #GFNS-HT"     |
 +---------------------------+------------------+---------------------------------------------------------------+
-| Yemen                     | #GAFS-YE         | Transaction description: "Commitment towards #GAFS-YE"        |
+| Yemen                     | #GFNS-YE         | Transaction description: "Commitment towards #GFNS-YE"        |
 +---------------------------+------------------+---------------------------------------------------------------+
 
 | 
@@ -77,6 +77,6 @@ Example usage - activity description:
 .. code-block:: XML
 
     <description type="1" >
-        <narrative>This project is in response to food insecurity in Haiti, and is a response to emerging needs. This activity relates to #GAFS-HT</narrative>
+        <narrative>This project is in response to food insecurity in Haiti, and is a response to emerging needs. This activity relates to #GFNS-HT</narrative>
     </description>
 

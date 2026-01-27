@@ -1,5 +1,5 @@
 ==========================================================
-iati-docs-base: Template repo for IATI documentation sites
+GFNS Publication Information
 ==========================================================
 
 Building the Documentation
